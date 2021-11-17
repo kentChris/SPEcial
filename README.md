@@ -6,7 +6,8 @@ Inside the Zip file there are 3 folder and 2 excel files
 software requirements (node.js and MySQL)
 
 Limitation
-1. It can not generate email due to the API is exposed in the github public.
+1. It can not generate email due to the SendGrid API is exposed in the github public.
+2. Create a MailTrap account Then Change the user and pass in the transporter (inside createSPE.js and scheadule.js) Without doing this it cant generate email for testing the create SPE feature
 
 Steps for running the system
 1. Create a connection in MySQL
